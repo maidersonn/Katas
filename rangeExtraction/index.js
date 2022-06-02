@@ -28,7 +28,7 @@ function solution(list){
 
 const makeRanges = (element) => {
     const array = element.split("/")
-    return array.length > 2 ? `${array[0]}-${array[array.length-1]}`: element.split("/").join();
+    return array.length > 2 ? `${array[0]}-${array[array.length-1]}`: array.join();
 };
 
 const isConsecutive = (num1, num2) => {

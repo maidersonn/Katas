@@ -20,8 +20,8 @@ function solution(list){
         return isConsecutive(current, array[index -1]) ? accu + `/${current}` : accu + `,${current}`
     }, ``)
     .split(",")
-   .map(makeRanges)
-   .join()
+    .map(makeRanges)
+    .join()
 
 
 }
